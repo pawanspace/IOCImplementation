@@ -1,0 +1,10 @@
+<beans>
+    <bean name="person" class="com.itspawan.ioc.Person">
+        <property name="address" ref-bean="address"/>
+    </bean>
+
+    <bean name="address" class="com.itspawan.ioc.Address" lazy="true">
+        <property name="location" value="delhi"/>
+        <property name="pincode" value="1010"/>
+    </bean>
+</beans>
