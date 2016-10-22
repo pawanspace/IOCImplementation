@@ -10,3 +10,4 @@ pipelines:
     - step:
         script:
           - mvn install
+          - mvn exec:java
