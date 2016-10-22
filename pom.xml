@@ -28,6 +28,16 @@
           <target>1.5</target>
         </configuration>
       </plugin>
+
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>1.2.1</version>
+                <configuration>
+                    <mainClass>com.itspawan.ioc.IOCTester</mainClass>
+                </configuration>
+            </plugin>
+
     </plugins>
 
   </build>
